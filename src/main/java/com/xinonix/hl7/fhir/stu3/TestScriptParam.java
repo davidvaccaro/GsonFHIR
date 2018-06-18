@@ -1,0 +1,43 @@
+package com.xinonix.hl7.fhir.stu3;
+
+
+import com.google.gson.annotations.Expose;
+
+
+/**
+ * A structured set of tests against a FHIR server implementation to determine compliance against the FHIR specification.
+ */
+public class TestScriptParam extends BackboneElement {
+	@Expose
+	private String name;
+
+	/**
+	 * Getter for name
+	 * @return Descriptive name for this parameter that matches the external assert rule parameter name.
+	 */
+	public String getName() { return name; }
+
+	/**
+	 * Setter for name
+	 * @param value Descriptive name for this parameter that matches the external assert rule parameter name.
+	 */
+	public void setName(String value) { name = value; }
+
+
+	@Expose
+	private String value;
+
+	/**
+	 * Getter for value
+	 * @return The explicit or dynamic value for the parameter that will be passed on to the external rule template.
+	 */
+	public String getValue() { return value; }
+
+	/**
+	 * Setter for value
+	 * @param value The explicit or dynamic value for the parameter that will be passed on to the external rule template.
+	 */
+	public void setValue(String value) { value = value; }
+
+
+}
