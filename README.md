@@ -22,7 +22,7 @@ Maven:
 ```
 Gradle:
 ```groovy
-implementation 'com.xinonix.gsonfhir:retrofhir:1.0.1'
+implementation 'com.xinonix.gsonfhir:gsonfhir:1.0.1'
 ```
 
 License
