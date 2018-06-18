@@ -1,6 +1,13 @@
 # GsonFHIR
 Gson Serialization Classes for FHIR
 
+Overview
+--------
+
+This library contains all 491 FHIR resources and referecned types defined by the [STU3 specification][1] and modeled as Plain Old Java Classes (POJOs) adorned with the appropriate Gson serialization annotations.
+
+This is a convenient library for Java applications working with JSON-based FHIR transaction serialization.
+
 Artifacts
 --------
 
@@ -39,3 +46,5 @@ License
     EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
     IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE 
     USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[1]: https://www.hl7.org/fhir/STU3/index.html
